@@ -1,0 +1,267 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.container
+{ position: relative;
+
+  width: auto;
+  height: 937px;
+   background: rgba(1, 0, 26, 1);
+   overflow: hidden;
+
+}
+.navbar
+{
+  position: absolute;
+  width: 94%;
+  height: 62px;
+  z-index: 2;
+  /* background-color: #d03c3c; */
+  color: aliceblue;
+  top: 29px;
+  left: 54px;
+  display: flex;
+  /* right: 26px; */
+  gap: 950px;
+}
+.img1
+{
+  width: 62px;
+  height: 62px;
+}
+.img
+{
+  width: 290px;
+  height: 62px;
+  display: flex;
+  gap: 13px;
+  /* background-color: black; */
+
+}
+.coder_choice
+{
+  width: 215px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  font-style: normal;
+  /* background-color: green; */
+}
+.typo
+{
+  color: rgba(82, 113, 255, 1);
+}
+.menu
+{
+  width: 510px;
+  height: 56px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px rgba(135, 135, 135, 1) solid;
+  padding: 0px, 40px, 0px, 40px;
+  gap: 39px;
+  color: rgba(135, 135, 135, 1);
+  background: rgba(217, 217, 217, 0.17);
+
+}
+#menu
+{
+  width: calc((100%)/(5))px;
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+ color: rgba(255, 255, 255, 1);
+
+
+}
+.Our_Projects
+{position: absolute;
+  background-color: white;
+  width: 403px;
+  height: 90px;
+  top: 148px;
+  left: 750px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(208.43deg, #FFFFFF -15.31%, #5271FF 85.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.swiper
+{
+position: absolute;
+width: 850px;
+height: 450px;
+top: 279px;
+left: 20px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.firstpage
+{ position: relative;
+  width: 843px;
+  height: 400px;
+  /* top: 279px; */
+  left: 50px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  background-color: red;
+  border: 2px solid rgba(82, 113, 255, 1);
+  background: rgba(82, 113, 255, 0.12);
+  display: flex;
+
+}
+.title
+{
+  width: 50%;
+  height: 100%;
+  /* background-color: green; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px;
+}
+.titlepic
+{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  border-radius: 20px;
+}
+.sampleproject
+{
+width: 335px;
+height: 53px;
+gap: 0px;
+opacity: 0px;
+/* color: white; */
+/* background-color: black; */
+font-family: Poppins;
+font-size: 35px;
+font-weight: 700;
+line-height: 52.5px;
+letter-spacing: 0.04em;
+/* text-align: left; */
+margin-top: 54px;
+/* margin-left: 41px; */
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+.description
+{
+width: 368px;
+height: 140px;
+gap: 0px;
+opacity: 0px;
+/* color: white; */
+/* background-color: black; */
+font-family: Poppins;
+font-size: 22px;
+font-weight: 300;
+line-height: 34.98px;
+letter-spacing: 0.04em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-left: 61px;
+}
+.preview
+{
+  width: 250px;
+  height: 63px;
+  margin-left: 36px;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  gap:   15px;
+}
+.button
+{
+width: 159px;
+height: 53px;
+/* top: 584px; */
+/* left: 197px; */
+/* padding: 10px 31px 10px 31px; */
+gap: 10px;
+border-radius: 50px;
+border: 4px 0px 0px 0px;
+opacity: 0px;
+background: rgba(82, 113, 255, 1);
+border: 4px solid rgba(82, 113, 255, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0.05em;
+text-align: left;
+}
+.git
+{
+width: 40px;
+height: 39px;
+/* margin-left: px; */
+gap: 0px;
+opacity: 0px;
+
+}
+.titlepic1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titlephoto
+{
+  width: 334px;
+height: 290px;
+margin-left: 20px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+
+}
+.swiper
+{
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 943px;
+}
+.swiper-button-prev,.swiper-button-next
+{position: absolute;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  right: 60px;
+  font-weight: 900;
+  /* padding-left: 80px; */
+}
