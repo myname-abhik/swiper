@@ -112,7 +112,7 @@ position: absolute;
 width: 850px;
 height: 450px;
 top: 279px;
-left: 20px;
+left: 475px;
 gap: 0px;
 border-radius: 20px 0px 0px 0px;
 border: 2px 0px 0px 0px;
@@ -125,7 +125,7 @@ opacity: 0px;
   width: 843px;
   height: 400px;
   /* top: 279px; */
-  left: 50px;
+  left: 75px;
   gap: 0px;
   border-radius: 20px;
   border: 2px 0px 0px 0px;
@@ -255,7 +255,7 @@ opacity: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 943px;
+  width: 1043px;
 }
 .swiper-button-prev,.swiper-button-next
 {position: absolute;
